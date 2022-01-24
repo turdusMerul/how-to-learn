@@ -1,8 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": "..\\..\\OneDrive\\Рабочий стол\\how-to-learn-main\\images"
+		},
+		{
+			"path": "..\\..\\OneDrive\\Рабочий стол\\how-to-learn-main\\styles"
 		}
-	],
-	"settings": {}
+	]
 }
