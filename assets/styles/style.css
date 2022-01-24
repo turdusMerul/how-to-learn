@@ -1,12 +1,8 @@
 
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -15,22 +11,17 @@
   top: 30px;
   left: 64px;
   z-index: 2;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
   display: flex;
   align-items: center;
   position: relative;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   background-color: #f2f2f2;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .header__title {
@@ -42,8 +33,6 @@
   font-weight: bold;
   align-self: center;
   z-index: 2;
-  box-sizing: border-box;
-  border: 1px solid red;
 } 
 
 .header__subtitle {
@@ -57,15 +46,11 @@
   font-weight: normal;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .header__link {
   color: #2f80ed;
   text-decoration: none;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .header__main-illustration {
@@ -75,11 +60,8 @@
   right: 0;
   bottom: 0;
   z-index: 1;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -87,15 +69,11 @@
   position: absolute;
   top: 64px;
   right: 0;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .description {
   display: flex;
   justify-content: center;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .two-columns {
@@ -104,8 +82,6 @@
   justify-content: space-between;
   margin-top: 100px;
   min-width: 784px;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .two-columns__brief {
@@ -115,8 +91,6 @@
   width: 175px;
   color: #2f80ed;
   margin: 0;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .two-columns__main-text {
@@ -124,8 +98,6 @@
   min-width: 784px;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .two-columns__paragraph {
@@ -133,8 +105,6 @@
   font-size: 24px;
   font-weight: normal;
   margin: 0 0 30px 0;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .two-columns__span-accent {
@@ -143,8 +113,6 @@
   font-weight: bold;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .digits {
@@ -152,8 +120,6 @@
   flex-direction: column;
   display: flex;
   padding: 100px 0;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .section-title {
@@ -164,18 +130,13 @@
   font-weight: bold;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .section-subtitle {
   font-weight: normal;
   line-height: 34px;
-  font-size: 24px;  
+  font-size: 24px;
   margin: 20 0 0;
-  box-sizing: border-box;
-  border: 1px solid red;
-}
 
 .table {
   width: 1100px;
@@ -184,14 +145,11 @@
   padding-left: 0;
   flex-flow: wrap;
   justify-content: space-between;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .table__cell {
   margin-top: 60px;
-  width: 250px;box-sizing: border-box;
-  border: 1px solid red;
+  width: 250px;
 }
 
 .table__heading {
@@ -200,8 +158,6 @@
   line-height: 1.15;
   margin: 0;
   padding-bottom: 20px;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .table__text {
@@ -209,8 +165,6 @@
   font-weight: normal;
   line-height: 1.2;
   margin-top: 20px;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 li {
@@ -226,12 +180,9 @@ li {
   background-position: bottom 0 left 0;
   height: 760px;
   position: relative;
-  display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 100px;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .feynman__title {
@@ -242,8 +193,6 @@ li {
   text-align: center;
   margin:0;
   padding: 0;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .feynman__subtitle {
@@ -251,8 +200,6 @@ li {
   font-size: 36px;
   font-weight: normal;
   margin: 70px;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .feynman__link {
@@ -264,8 +211,6 @@ line-height: 51px;
 font-size: 36px;
 text-decoration: none;
 color: black;
-box-sizing: border-box;
-border: 1px solid red;
 }
 
 .kaufman {
@@ -274,8 +219,6 @@ border: 1px solid red;
   align-items: center;
   overflow: hidden;
   position: relative;
-  box-sizing: border-box;
-  border: 1px solid red;
   background-color: black;
   background-image: url(../../images/kaufman-triangle.svg);
   background-repeat: no-repeat;
@@ -293,8 +236,6 @@ border: 1px solid red;
   font-weight: bold;
   margin-bottom: 20px;
   color: white;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .section-subtitle_theme_dark {
@@ -306,8 +247,6 @@ border: 1px solid red;
   font-weight: normal;
   margin: 0;
   color: white;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 .table_theme_dark {
   width: 1100px;
@@ -319,8 +258,6 @@ border: 1px solid red;
   padding-top: 0;
   z-index: 1;
   color: white;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .table__cell_theme_dark {
@@ -328,8 +265,6 @@ border: 1px solid red;
   width: 200px;
   margin-right: 5px;
   color: white;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .table__heading_theme_dark {
@@ -338,8 +273,6 @@ border: 1px solid red;
   line-height: 1.15;
   margin: 0;
   padding-bottom: 0;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .table__text_theme_dark {
@@ -348,8 +281,6 @@ border: 1px solid red;
   line-height: 1.2;
   margin-top: 20px;
   margin-bottom: 0;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .footer {
@@ -357,8 +288,6 @@ border: 1px solid red;
   display: flex;
   justify-content: center;
   background: black;
-  box-sizing: border-box;
-  border: 1px solid red;
   padding-top: 60px;
   padding-bottom: 40px;
 }
@@ -369,8 +298,6 @@ border: 1px solid red;
   padding-top: 60px;
   padding-bottom: 40px;
   width: 90%;
-  box-sizing: border-box;
-  border: 1px solid red;
   position: relative;
 }
 
@@ -379,8 +306,6 @@ border: 1px solid red;
   flex-direction: column;
   margin: 0;
   padding-right: 5;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .footer__columns__content_copyrights {
@@ -388,8 +313,6 @@ border: 1px solid red;
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .footer__column_links {
@@ -398,8 +321,6 @@ border: 1px solid red;
   text-decoration: none;
   color: white;
   padding: 0;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 
@@ -409,8 +330,6 @@ font-size: 18px;
 font-weight: normal;
 color: white;
 text-decoration: none;
-box-sizing: border-box;
-border: 1px solid red;
 padding: 0;
 margin: 0;
 }
@@ -422,8 +341,6 @@ font-weight: bold;
 color: white;
 padding: 0;
 margin: 0;
-box-sizing: border-box;
-border: 1px solid red;
 position: absolute;
 top: 0;
 }
@@ -432,16 +349,12 @@ top: 0;
   margin-right: 10px;
   width: 16px;
   height: 16px;
-  box-sizing: border-box;
-  border: 1px solid red;
 }
 
 .logo__place_footer {
   width: 183px;
   height: 35px;
   margin-bottom: 0;
-  box-sizing: border-box;
-  border: 1px solid red;
   position: absolute;
   top: 0;
   left: 0;
@@ -453,8 +366,6 @@ font-size: 18px;
 font-weight: normal;
 color: white;
 margin-top: 170px;
-box-sizing: border-box;
-border: 1px solid red;
 position: absolute;
 bottom: 0;
 left: 0;
