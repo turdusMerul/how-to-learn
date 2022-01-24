@@ -393,7 +393,7 @@ border: 1px solid red;
 }
 
 .footer__column_links {
-  margin: 0
+  margin: 0;
   flex-direction: column;
   text-decoration: none;
   color: white;
